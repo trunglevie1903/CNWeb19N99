@@ -8,7 +8,8 @@
 </head>
 <body>
     <?php
-    
+    $link = mysqli_connect('localhost', 'root', '', 'dulieu') or die ('Couldn\'t connect to the database: '.mysqli_connect_error());
+    $link->close();
     ?>
 </body>
 </html>
