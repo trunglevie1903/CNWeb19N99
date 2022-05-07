@@ -58,9 +58,6 @@
                 echo $str;
             }
         }
-        // } else {
-        //     echo 'Error gettting cols name: '.$link->error;
-        // }
     }
     $link->close();
     ?>
